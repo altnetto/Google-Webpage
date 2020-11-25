@@ -1,0 +1,161 @@
+html *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+input, button {
+    outline: 0;
+}
+
+#upper-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 30px 30px 0 15px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+#upper-nav a {
+    margin-right: 15px;
+    color: rgba(0,0,0,0.87);
+}
+
+nav a:hover {
+    color: #444444;
+    text-decoration: underline;
+}
+
+#login {
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    border: 1px;
+    padding: 0 12px 0 12px;
+    height: 28px;
+}
+
+#gApps {
+    filter: invert(50%);
+}
+
+#gApps:hover {
+    filter: invert(25%);
+}
+
+#login:active{
+    background-color: #3c78dc;
+}
+
+#search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#search {
+    padding: 5px 15px 5px 15px;
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 30px 30px 30px 30px;
+    width: 480px;
+    border-color: transparent;
+    box-shadow: 0 0 5px lightgray;
+}
+
+#search:hover, #search:focus {
+    box-shadow: 0 0 5px gray;
+}
+
+main div img {
+    width: 272px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-button {
+    margin: 40px 5px 0 5px;
+    padding: 0 16px 0 16px;
+    border: 1px;
+    width: 140px;
+    height: 36px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.search-button:hover {
+    box-shadow: 0 0 3px gray;
+}
+
+.search-button:focus {
+    border: 1px solid #4d90fe;
+}
+
+#search-buttons {
+    display: flex;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.felms {
+    padding-left: 30px;
+    height: 40px;
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadce0;
+}
+
+.felms nav a {
+    color: rgba(0,0,0,.54);
+}
+
+#fd1{
+    display: flex;
+    align-items: center;
+}
+
+#fd2 {
+    display: grid;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+}
+
+footer nav  a{
+    margin-right: 20px;
+}
+
+.lSide {
+    grid-column: 1/2;
+    align-items: center;
+}
+
+.rSide {
+    grid-column: 2/3;
+    align-items: center;
+}
+
+#rSide {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+}
